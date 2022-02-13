@@ -17,3 +17,11 @@ def solution(s):
     answer += ''.join(str_upper)
 
     return answer
+
+#def solution(s):
+#    answer = ''
+#    str_list = list(map(str, s))
+#    str_list.sort(reverse=True)
+#    answer += ''.join(str_list)
+#
+#    return answer
